@@ -5,7 +5,7 @@
 To export a database to a data file use the following command
 
 ```
-    pg_backup ${DB_NAME} > ${OUTPUT_FILE}
+    pg_backup -h ${HOST} -p ${PORT} -U ${USER_NAME} ${DB_NAME} > ${OUTPUT_FILE}
 ```
 
 ## Data Importing
